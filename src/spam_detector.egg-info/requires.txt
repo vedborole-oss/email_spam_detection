@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn>=1.2
+matplotlib
+seaborn
+joblib
+
+[app]
+streamlit>=1.30
+
+[dev]
+pytest
+ruff
