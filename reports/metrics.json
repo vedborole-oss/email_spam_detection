@@ -1,0 +1,159 @@
+{
+  "created_utc": "2026-11-22T05:53:12+00:00",
+  "sklearn_version": "1.5.2",
+  "quick_mode": false,
+  "dataset": {
+    "messages_after_dedup": 5169,
+    "ham": 4516,
+    "spam": 653,
+    "train_size": 4135,
+    "test_size": 1034
+  },
+  "best_model": "Naive Bayes",
+  "selection_rule": "highest mean cross-validated F1 on the training set",
+  "models": {
+    "Naive Bayes": {
+      "best_params": {
+        "clf__alpha": 0.1,
+        "tfidf__min_df": 1,
+        "tfidf__ngram_range": [
+          1,
+          2
+        ]
+      },
+      "cv_f1_mean": 0.9525859508852085,
+      "cv_f1_std": 0.011772448367995651,
+      "train_seconds": 5.6,
+      "test": {
+        "accuracy": 0.9864603481624759,
+        "precision": 0.9606299212598425,
+        "recall": 0.9312977099236641,
+        "f1": 0.9457364341085271,
+        "roc_auc": 0.9924678552408004,
+        "pr_auc": 0.9794899074467054,
+        "tn": 898,
+        "fp": 5,
+        "fn": 9,
+        "tp": 122
+      }
+    },
+    "Logistic Regression": {
+      "best_params": {
+        "clf__C": 100,
+        "tfidf__min_df": 2,
+        "tfidf__ngram_range": [
+          1,
+          2
+        ]
+      },
+      "cv_f1_mean": 0.9399855386968852,
+      "cv_f1_std": 0.007411978771060297,
+      "train_seconds": 2.0,
+      "test": {
+        "accuracy": 0.9806576402321083,
+        "precision": 0.9302325581395349,
+        "recall": 0.916030534351145,
+        "f1": 0.9230769230769231,
+        "roc_auc": 0.9947587769352371,
+        "pr_auc": 0.9777552966831804,
+        "tn": 894,
+        "fp": 9,
+        "fn": 11,
+        "tp": 120
+      }
+    },
+    "SVM": {
+      "best_params": {
+        "clf__estimator__C": 10,
+        "tfidf__min_df": 1,
+        "tfidf__ngram_range": [
+          1,
+          1
+        ]
+      },
+      "cv_f1_mean": 0.9467722714988316,
+      "cv_f1_std": 0.0050864730285787195,
+      "train_seconds": 2.4,
+      "test": {
+        "accuracy": 0.9825918762088974,
+        "precision": 0.952,
+        "recall": 0.9083969465648855,
+        "f1": 0.9296875,
+        "roc_auc": 0.9961874328996645,
+        "pr_auc": 0.9829638288596765,
+        "tn": 897,
+        "fp": 6,
+        "fn": 12,
+        "tp": 119
+      }
+    }
+  },
+  "unseen": {
+    "messages": 60,
+    "models": {
+      "Naive Bayes": {
+        "accuracy": 0.7666666666666667,
+        "precision": 0.9,
+        "recall": 0.6,
+        "f1": 0.72,
+        "roc_auc": 0.8911111111111111,
+        "pr_auc": 0.8975140474724803,
+        "tn": 28,
+        "fp": 2,
+        "fn": 12,
+        "tp": 18,
+        "accuracy_by_category": {
+          "college_work": 1.0,
+          "job_investment": 0.2,
+          "personal": 1.0,
+          "phishing": 0.5384615384615384,
+          "prize": 1.0,
+          "promo": 0.6666666666666666,
+          "transactional": 0.8
+        }
+      },
+      "Logistic Regression": {
+        "accuracy": 0.8666666666666667,
+        "precision": 0.9583333333333334,
+        "recall": 0.7666666666666667,
+        "f1": 0.8518518518518519,
+        "roc_auc": 0.9188888888888889,
+        "pr_auc": 0.9263448046921566,
+        "tn": 29,
+        "fp": 1,
+        "fn": 7,
+        "tp": 23,
+        "accuracy_by_category": {
+          "college_work": 1.0,
+          "job_investment": 0.6,
+          "personal": 1.0,
+          "phishing": 0.8461538461538461,
+          "prize": 0.8333333333333334,
+          "promo": 0.6666666666666666,
+          "transactional": 0.9
+        }
+      },
+      "SVM": {
+        "accuracy": 0.8166666666666667,
+        "precision": 0.9523809523809523,
+        "recall": 0.6666666666666666,
+        "f1": 0.7843137254901961,
+        "roc_auc": 0.9244444444444444,
+        "pr_auc": 0.9324185816306672,
+        "tn": 29,
+        "fp": 1,
+        "fn": 10,
+        "tp": 20,
+        "accuracy_by_category": {
+          "college_work": 1.0,
+          "job_investment": 0.4,
+          "personal": 1.0,
+          "phishing": 0.8461538461538461,
+          "prize": 0.8333333333333334,
+          "promo": 0.3333333333333333,
+          "transactional": 0.9
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spam-detector"
+version = "1.1.0"
+description = "SMS and email spam detection with TF-IDF and classical machine learning (Naive Bayes, Logistic Regression, SVM)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "YOUR_NAME" }]
+keywords = ["spam-detection", "machine-learning", "nlp", "tf-idf", "scikit-learn"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn>=1.2",
+    "matplotlib",
+    "seaborn",
+    "joblib",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.30"]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+spam-detector = "spamdetector.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/YOUR_GITHUB_USERNAME/spam-detector"
+Issues = "https://github.com/YOUR_GITHUB_USERNAME/spam-detector/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    "ignore:The least populated class:UserWarning",
+    "ignore:Tight layout not applied:UserWarning",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"app/*" = ["E501"]   # UI text and layout code can run long

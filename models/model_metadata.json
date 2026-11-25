@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-22T05:53:12+00:00",
+  "sklearn_version": "1.5.2",
+  "best_model": "Naive Bayes",
+  "best_params": {
+    "clf__alpha": 0.1,
+    "tfidf__min_df": 1,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.9864603481624759,
+    "precision": 0.9606299212598425,
+    "recall": 0.9312977099236641,
+    "f1": 0.9457364341085271,
+    "roc_auc": 0.9924678552408004,
+    "pr_auc": 0.9794899074467054,
+    "tn": 898,
+    "fp": 5,
+    "fn": 9,
+    "tp": 122
+  }
+}

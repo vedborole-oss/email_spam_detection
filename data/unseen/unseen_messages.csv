@@ -1,0 +1,61 @@
+label,category,message
+spam,phishing,"Dear customer, your SBI account will be blocked today. Update your KYC immediately at http://sbi-kyc-update.xyz"
+spam,prize,"Congratulations! You have been selected for a Rs 50,000 cash reward. Click here to claim: bit.ly/claim50k"
+spam,phishing,URGENT: Your electricity connection will be disconnected tonight at 9:30 PM. Call 9876543210 immediately to avoid cut.
+spam,prize,You have won a brand new iPhone 15! Reply YES to this message to claim your free gift now
+spam,job_investment,Earn Rs 5000 daily working from home. No experience needed. WhatsApp 9123456780 to join today
+spam,phishing,Your parcel could not be delivered. Pay Rs 25 redelivery fee at http://courier-track.in/pay to reschedule
+spam,job_investment,"Pre-approved personal loan of Rs 3,00,000 at 0% interest. Apply now, limited offer. No documents required!"
+spam,phishing,"Dear user, your PAN card is suspended. Verify now to avoid penalty: http://pan-verify.co/in"
+spam,promo,FREE 2GB data on your number! Recharge with Rs 99 today and get unlimited calls. Offer ends tonight. Click the link
+spam,promo,Hot singles in your area are waiting to chat with you. Reply STOP to unsubscribe. Join free now
+spam,phishing,"Your UPI refund of Rs 1,499 is pending. Share your UPI PIN to receive the amount immediately"
+spam,prize,Lottery winner!! Your mobile number has won 25 lakh rupees in the KBC lucky draw. Call 9988776655 to claim
+spam,phishing,"Final notice: your credit card reward points worth Rs 8,540 expire today. Redeem now at http://rewards-card.biz"
+spam,promo,Get a 90% discount on branded watches. Limited stock! Order now on WhatsApp 9812345678
+spam,phishing,Dear customer your Netflix subscription has expired. Update payment details here to avoid suspension http://netflix-billing.info
+spam,job_investment,"Work from home part time job, earn Rs 1000 per hour liking videos. Send HI to this number to start"
+spam,promo,"Congratulations, you are pre-selected for an exclusive gold credit card with zero annual fee. Reply YES for instant approval"
+spam,phishing,Your Amazon order has been cancelled. Call our refund helpline 1800123456 or click http://amzn-refund.top to get your money back
+spam,phishing,You have 1 new voicemail. Listen now: www.voicemail-play.net/u/883
+spam,prize,WIN a free trip to Goa for two! Text GOA to 56789 now. T&Cs apply. 18+ only
+spam,phishing,Your bank account has been temporarily limited due to suspicious activity. Confirm your identity within 24 hours: http://secure-bankverify.com
+spam,prize,"Claim your free cricket world cup match tickets! Reply TICKET to 58585, offer valid for first 100 winners"
+spam,job_investment,"Invest Rs 10,000 and get Rs 50,000 in 7 days guaranteed! Join our stock tips group now"
+spam,promo,Free entry to our weekend mega sale! Show this message and get a gift worth Rs 2000. Call now to book your slot
+spam,phishing,"Dear sir, income tax refund of Rs 24,560 is approved. Submit your bank details at http://incometax-refund.org to receive it"
+spam,phishing,Final reminder: your SIM will be deactivated in 2 hours. Call 9090909090 now to complete verification
+spam,promo,"Hurry! Last chance to buy cheap medicines online without prescription. Order now, free delivery"
+spam,prize,Congratulations! Your number has been chosen as today's lucky winner of a free holiday voucher. Call now to redeem
+spam,job_investment,"Earn money online by just sharing links. Join 50,000 members. Register free now and get a 500 rupee bonus"
+spam,phishing,ALERT: unusual login detected on your Gmail account. Secure your account now: http://google-security-check.net/login
+ham,personal,"Hey, are you free for lunch tomorrow? Let's try the new place near the library"
+ham,personal,"Bhai, kal ka assignment submit kiya kya? Sir ne deadline aaj tak hi rakhi thi"
+ham,college_work,The lab viva is rescheduled to Monday 10 AM. Please bring your record book.
+ham,transactional,Your OTP for login is 482913. It is valid for 5 minutes. Do not share it with anyone.
+ham,transactional,"Rs 1,250.00 debited from A/c XX4521 on 18-Nov at Swiggy. Avl bal Rs 10,342.50. Not you? Call the bank."
+ham,transactional,Your order has been shipped and will arrive by Thursday. Track it in the app.
+ham,personal,"Mom said dinner is at 8, don't be late and please buy some milk on the way back"
+ham,college_work,Meeting moved to 3 PM in conference room B. Please share the updated slides before that.
+ham,transactional,Reminder: your dental appointment is tomorrow at 11:30 AM at Sunrise Clinic.
+ham,college_work,Can you send me the notes of yesterday's DBMS class? I missed it because I was sick
+ham,personal,Happy birthday! Wishing you a wonderful year ahead. Let's catch up this weekend
+ham,transactional,"Your train PNR 4521367890 is confirmed. Coach B3, seat 24. Have a safe journey."
+ham,personal,I'll be reaching home by 9. Start eating without me.
+ham,college_work,Please find attached the project report for review. Let me know if any changes are needed.
+ham,transactional,"Your electricity bill for October of Rs 1,420 is generated. Due date is 25 Nov. Pay via the official app."
+ham,personal,"Paid the rent today, sending you the screenshot. Please confirm once you receive it"
+ham,personal,Don't forget we have the football match at 5 on Saturday. Bring your own water bottle.
+ham,personal,"Thanks for your help yesterday, the code finally worked after I fixed that import error"
+ham,transactional,Your Amazon package was delivered to the front desk at 2:15 PM.
+ham,college_work,Is the exam syllabus up to unit 4 or unit 5? Can anyone confirm?
+ham,personal,Congratulations on your placement! So proud of you. Treat is on you now
+ham,transactional,"Your cab is arriving in 3 minutes. Driver: Ramesh, vehicle MH 14 AB 1234."
+ham,personal,"I'm stuck in traffic, will be 15 minutes late. Please start the meeting without me."
+ham,personal,Free tomorrow? Mom wants to invite you for dinner. Come around 7:30.
+ham,transactional,Your library book is due on 28 November. Please return or renew it to avoid a fine.
+ham,personal,"Please call me when you get a chance. It's not urgent, just want to talk about the weekend trip."
+ham,college_work,The results will be announced on the college website next week. Keep checking the notice board.
+ham,personal,"Aaj raat movie dekhne chalein? Ticket maine book kar di hai, 9 baje ka show hai"
+ham,college_work,Your interview is scheduled for Tuesday at 10 AM. Please carry a copy of your resume and ID proof.
+ham,transactional,Thank you for your payment of Rs 499. Your receipt has been emailed to you.

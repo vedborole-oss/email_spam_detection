@@ -1,0 +1,61 @@
+label,category,message,Naive Bayes spam probability,Logistic Regression spam probability,SVM spam probability
+spam,phishing,"Dear customer, your SBI account will be blocked today. Update your KYC immediately at http://sbi-kyc-update.xyz",0.7626,0.9971,0.9659
+spam,prize,"Congratulations! You have been selected for a Rs 50,000 cash reward. Click here to claim: bit.ly/claim50k",0.9959,0.9929,0.9483
+spam,phishing,URGENT: Your electricity connection will be disconnected tonight at 9:30 PM. Call 9876543210 immediately to avoid cut.,0.4073,0.8472,0.7551
+spam,prize,You have won a brand new iPhone 15! Reply YES to this message to claim your free gift now,0.9836,0.9974,0.9874
+spam,job_investment,Earn Rs 5000 daily working from home. No experience needed. WhatsApp 9123456780 to join today,0.0653,0.0414,0.029
+spam,phishing,Your parcel could not be delivered. Pay Rs 25 redelivery fee at http://courier-track.in/pay to reschedule,0.2273,0.9221,0.8291
+spam,job_investment,"Pre-approved personal loan of Rs 3,00,000 at 0% interest. Apply now, limited offer. No documents required!",0.4303,0.952,0.4076
+spam,phishing,"Dear user, your PAN card is suspended. Verify now to avoid penalty: http://pan-verify.co/in",0.6334,0.9726,0.8729
+spam,promo,FREE 2GB data on your number! Recharge with Rs 99 today and get unlimited calls. Offer ends tonight. Click the link,0.8322,0.5558,0.3527
+spam,promo,Hot singles in your area are waiting to chat with you. Reply STOP to unsubscribe. Join free now,0.9906,0.998,0.9982
+spam,phishing,"Your UPI refund of Rs 1,499 is pending. Share your UPI PIN to receive the amount immediately",0.1492,0.4555,0.3922
+spam,prize,Lottery winner!! Your mobile number has won 25 lakh rupees in the KBC lucky draw. Call 9988776655 to claim,0.9996,0.997,0.9975
+spam,phishing,"Final notice: your credit card reward points worth Rs 8,540 expire today. Redeem now at http://rewards-card.biz",0.8944,0.9916,0.9934
+spam,promo,Get a 90% discount on branded watches. Limited stock! Order now on WhatsApp 9812345678,0.1764,0.8987,0.2469
+spam,phishing,Dear customer your Netflix subscription has expired. Update payment details here to avoid suspension http://netflix-billing.info,0.6465,0.9734,0.7841
+spam,job_investment,"Work from home part time job, earn Rs 1000 per hour liking videos. Send HI to this number to start",0.0009,0.0017,0.0015
+spam,promo,"Congratulations, you are pre-selected for an exclusive gold credit card with zero annual fee. Reply YES for instant approval",0.8605,0.1658,0.3039
+spam,phishing,Your Amazon order has been cancelled. Call our refund helpline 1800123456 or click http://amzn-refund.top to get your money back,0.9433,0.9896,0.9658
+spam,phishing,You have 1 new voicemail. Listen now: www.voicemail-play.net/u/883,0.9884,0.9998,0.9991
+spam,prize,WIN a free trip to Goa for two! Text GOA to 56789 now. T&Cs apply. 18+ only,0.9979,0.9969,0.996
+spam,phishing,Your bank account has been temporarily limited due to suspicious activity. Confirm your identity within 24 hours: http://secure-bankverify.com,0.1883,0.7609,0.6416
+spam,prize,"Claim your free cricket world cup match tickets! Reply TICKET to 58585, offer valid for first 100 winners",0.9915,0.8673,0.7041
+spam,job_investment,"Invest Rs 10,000 and get Rs 50,000 in 7 days guaranteed! Join our stock tips group now",0.2107,0.843,0.5232
+spam,promo,Free entry to our weekend mega sale! Show this message and get a gift worth Rs 2000. Call now to book your slot,0.8018,0.9915,0.6485
+spam,phishing,"Dear sir, income tax refund of Rs 24,560 is approved. Submit your bank details at http://incometax-refund.org to receive it",0.1706,0.9705,0.8632
+spam,phishing,Final reminder: your SIM will be deactivated in 2 hours. Call 9090909090 now to complete verification,0.1457,0.0512,0.2683
+spam,promo,"Hurry! Last chance to buy cheap medicines online without prescription. Order now, free delivery",0.3081,0.3107,0.3446
+spam,prize,Congratulations! Your number has been chosen as today's lucky winner of a free holiday voucher. Call now to redeem,0.9886,0.25,0.1619
+spam,job_investment,"Earn money online by just sharing links. Join 50,000 members. Register free now and get a 500 rupee bonus",0.8394,0.9608,0.781
+spam,phishing,ALERT: unusual login detected on your Gmail account. Secure your account now: http://google-security-check.net/login,0.6813,0.887,0.5641
+ham,personal,"Hey, are you free for lunch tomorrow? Let's try the new place near the library",0.0014,0.0023,0.0282
+ham,personal,"Bhai, kal ka assignment submit kiya kya? Sir ne deadline aaj tak hi rakhi thi",0.0093,0.0003,0.0006
+ham,college_work,The lab viva is rescheduled to Monday 10 AM. Please bring your record book.,0.0046,0.0149,0.0153
+ham,transactional,Your OTP for login is 482913. It is valid for 5 minutes. Do not share it with anyone.,0.9167,0.1092,0.1974
+ham,transactional,"Rs 1,250.00 debited from A/c XX4521 on 18-Nov at Swiggy. Avl bal Rs 10,342.50. Not you? Call the bank.",0.4329,0.9778,0.9344
+ham,transactional,Your order has been shipped and will arrive by Thursday. Track it in the app.,0.1547,0.0355,0.0592
+ham,personal,"Mom said dinner is at 8, don't be late and please buy some milk on the way back",0.0002,0.0003,0.0013
+ham,college_work,Meeting moved to 3 PM in conference room B. Please share the updated slides before that.,0.0087,0.0042,0.0122
+ham,transactional,Reminder: your dental appointment is tomorrow at 11:30 AM at Sunrise Clinic.,0.1989,0.25,0.1523
+ham,college_work,Can you send me the notes of yesterday's DBMS class? I missed it because I was sick,0.0052,0.0033,0.0263
+ham,personal,Happy birthday! Wishing you a wonderful year ahead. Let's catch up this weekend,0.0003,0.0009,0.0056
+ham,transactional,"Your train PNR 4521367890 is confirmed. Coach B3, seat 24. Have a safe journey.",0.0194,0.2194,0.048
+ham,personal,I'll be reaching home by 9. Start eating without me.,0.003,0.0009,0.0013
+ham,college_work,Please find attached the project report for review. Let me know if any changes are needed.,0.0048,0.0007,0.0072
+ham,transactional,"Your electricity bill for October of Rs 1,420 is generated. Due date is 25 Nov. Pay via the official app.",0.1866,0.2797,0.2312
+ham,personal,"Paid the rent today, sending you the screenshot. Please confirm once you receive it",0.0415,0.0217,0.0939
+ham,personal,Don't forget we have the football match at 5 on Saturday. Bring your own water bottle.,0.0402,0.0478,0.1672
+ham,personal,"Thanks for your help yesterday, the code finally worked after I fixed that import error",0.1518,0.0156,0.0509
+ham,transactional,Your Amazon package was delivered to the front desk at 2:15 PM.,0.6122,0.3101,0.2283
+ham,college_work,Is the exam syllabus up to unit 4 or unit 5? Can anyone confirm?,0.0307,0.1994,0.0889
+ham,personal,Congratulations on your placement! So proud of you. Treat is on you now,0.1154,0.0031,0.0079
+ham,transactional,"Your cab is arriving in 3 minutes. Driver: Ramesh, vehicle MH 14 AB 1234.",0.2937,0.4014,0.226
+ham,personal,"I'm stuck in traffic, will be 15 minutes late. Please start the meeting without me.",0.0059,0.0071,0.0074
+ham,personal,Free tomorrow? Mom wants to invite you for dinner. Come around 7:30.,0.0025,0.0942,0.067
+ham,transactional,Your library book is due on 28 November. Please return or renew it to avoid a fine.,0.0782,0.031,0.0187
+ham,personal,"Please call me when you get a chance. It's not urgent, just want to talk about the weekend trip.",0.078,0.0491,0.1887
+ham,college_work,The results will be announced on the college website next week. Keep checking the notice board.,0.0613,0.0739,0.0682
+ham,personal,"Aaj raat movie dekhne chalein? Ticket maine book kar di hai, 9 baje ka show hai",0.027,0.0188,0.0342
+ham,college_work,Your interview is scheduled for Tuesday at 10 AM. Please carry a copy of your resume and ID proof.,0.0036,0.0014,0.004
+ham,transactional,Thank you for your payment of Rs 499. Your receipt has been emailed to you.,0.0327,0.0253,0.0216

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Email and SMS Spam Detection using Machine Learning"
+type: software
+authors:
+  - name: "YOUR_NAME"
+version: 1.1.0
+license: MIT
+repository-code: "https://github.com/YOUR_GITHUB_USERNAME/spam-detector"
+keywords:
+  - spam detection
+  - machine learning
+  - TF-IDF
